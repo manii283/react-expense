@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/expense-item/static/css/main.b559a68c.css",
-    "main.js": "/expense-item/static/js/main.854c2ffa.js",
-    "index.html": "/expense-item/index.html",
-    "main.b559a68c.css.map": "/expense-item/static/css/main.b559a68c.css.map",
-    "main.854c2ffa.js.map": "/expense-item/static/js/main.854c2ffa.js.map"
+    "main.css": "/react-expense/static/css/main.b559a68c.css",
+    "main.js": "/react-expense/static/js/main.854c2ffa.js",
+    "index.html": "/react-expense/index.html",
+    "main.b559a68c.css.map": "/react-expense/static/css/main.b559a68c.css.map",
+    "main.854c2ffa.js.map": "/react-expense/static/js/main.854c2ffa.js.map"
   },
   "entrypoints": [
     "static/css/main.b559a68c.css",
