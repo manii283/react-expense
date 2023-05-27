@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import NewExpense from './components/NweExpense/NewExpense'
 import Expenses from './components/Expenses/Expenses';
+import Chart from './components/Chart/Chart';
 
 const DUMMY_EXPENSES = [
   {
@@ -34,16 +35,10 @@ const App = () => {
     });
   };
 
-  // return React.createElement(
-  //   'div',
-  //   {},
-  //   React.createElement('h2', {}, "Let's get started!"),
-  //   React.createElement(Expenses, { items: expenses })
-  // );
-
   return (
     <div>
       <NewExpense onAddExpense={addExpenseHandler} />
+      <Chart />
       <Expenses items={expenses} />
     </div>
   );
